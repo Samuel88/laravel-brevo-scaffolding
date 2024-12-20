@@ -10,5 +10,6 @@
 </head>
 <body>
     Hello Brevo
+    <x-signup-to-newsletter/>
 </body>
 </html>

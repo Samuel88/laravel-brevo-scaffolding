@@ -18,4 +18,4 @@ Route::get('/', function () {
     return view('home');
 })->name('home');
 
-Route::get('/add-newsletter-email', [BrevoController::class, 'addNewsletterEmail'])->name('add-newsletter-email');
+Route::post('/add-newsletter-email', [BrevoController::class, 'addNewsletterEmail'])->name('add-newsletter-email');
