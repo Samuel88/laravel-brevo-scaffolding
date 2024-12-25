@@ -1,0 +1,1 @@
+<x-signup-to-newsletter/>
